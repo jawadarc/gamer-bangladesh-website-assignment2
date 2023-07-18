@@ -84,6 +84,7 @@ cursor: pointer;
     align-items: center;
     justify-content: center;
 } */
+
 .box-1 h1{
     color: #0B0223;
 font-size: 48px;
@@ -97,6 +98,7 @@ background-clip: text;
 
 font-size: 95px;
 font-weight: 800;
+
 }
 .box-1 h4{
     color: #534C64;
@@ -104,6 +106,7 @@ font-size: 20px;
 font-weight: 500;
 padding-top: 16px;
 }
+
 .btn-1{
     border: none;
     border-radius: 48px;
@@ -115,6 +118,7 @@ gap: 10px;
 color: #FFF;
 font-size: 20px;
 font-weight: 600;
+margin-right: 25px;
 }
 .btn-2{
     border: none;
@@ -136,12 +140,64 @@ margin-top: 40px;
     width: 40%;
 }
 
-
+.btn-1, .btn-2{
+cursor: pointer;
+}
 
 
 /* play like the goat section ends here */
 
 
+/* cards section starts  */
+.cards-banner{
+    background-color: #fff9f9;
+}
+
+.games-title{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 60px;
+}
+.funny-videos{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 48px;
+font-weight: 700;
+}
+.games-desc{
+    color: #534C64;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+padding-top: 30px;
+}
+.cards-container{
+display: flex;
+justify-content: space-around;
+}
+.cards{
+    height: 500px;
+    width: 320px;
+    border-radius: 16px;
+    padding-top: 40px;
+}
+.cards p{
+    color: #534C64;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+}
+.special-image{
+    border-radius: 16px;
+}
+
+
+
+/* footer section starts  */
 footer{
     background-color: #0B0223;
 flex-shrink: 0;
@@ -175,12 +231,23 @@ padding-top: 60px;
     padding-top: 60px;
     flex-wrap: wrap;
 }
-.footer-menus{
+.footer-contents a{
+    text-decoration: none;
+    color: #FFF;
+}
+.social-icons:hover{
+cursor: pointer;
+}
+.footer-menus {
     color: white;
 display: flex;
 justify-content: center;
 padding-top: 60px;
 gap: 60px;
+}
+.footer-menus a{
+    text-decoration: none;
+    color: #FFF;
 }
 .footer-last-line{
     color: white;

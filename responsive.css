@@ -7,7 +7,7 @@
         }
         .about-us{
             flex-direction: column;
-            padding-top: 60px;
+            padding-top: 30px;
         }
 
 /* 2nd sectoin  */
@@ -20,6 +20,19 @@
     /* height: 1000px; */
     width: 200px;
 }
+/* cards games section  */
+.cards-container{
+flex-direction: column;
+align-items: center;
+}
+.cards p{
+    text-align: center;
+}
+
+
+/* footer section starts  */
+
+
 .footer-container{
     /* align-content: center; */
     padding: 30px;
@@ -35,6 +48,18 @@ svg{
     
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
 /* for tab screen  */
 
 @media screen  and (min-width:577px) and (max-width:800px) {
@@ -45,4 +70,5 @@ svg{
         flex-direction: column;
         padding-top: 60px;
     }
+
 }
