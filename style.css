@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Work+Sans&display=swap');
+* {
+    margin: 0;
+    padding: o;
+    font-family: 'Work Sans', sans-serif;
+    /* max-width: 1440px;
+    margin: 0 auto; */
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* margin-top: 30px; */
+    padding: 30px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.web-logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.gamer-text {
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.g {
+    background:linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.about-us{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.about-us p{
+    color: #3C354F;
+text-align: center;
+font-size: 18px;
+font-weight: 500;
+}
+.logo-button{
+    border-radius: 8px;
+background: rgba(11, 2, 35, 0.10);
+border: none;
+padding: 20px;
+display: flex;
+align-items: center;
+gap: 20px;
+}
+.about-us p:hover{
+    cursor: pointer;
+}
+.icon:hover {
+cursor: pointer;
+}
