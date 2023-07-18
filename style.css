@@ -7,6 +7,8 @@
     margin: 0 auto; */
 }
 
+/* logo section starts here */
+
 .logo-container {
     display: flex;
     align-items: center;
@@ -41,11 +43,12 @@
     align-items: center;
     gap: 30px;
 }
-.about-us p{
+.about-us a{
     color: #3C354F;
 text-align: center;
 font-size: 18px;
 font-weight: 500;
+text-decoration: none;
 }
 .logo-button{
     border-radius: 8px;
@@ -61,4 +64,126 @@ gap: 20px;
 }
 .icon:hover {
 cursor: pointer;
+}
+
+/* logo section ends here */
+
+/* play like the goat section starts here */
+
+.boxes{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+/* .box-1{
+    background-image: url('./images/Group\ 14.png');
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 900px;
+    align-items: center;
+    justify-content: center;
+} */
+.box-1 h1{
+    color: #0B0223;
+font-size: 48px;
+font-weight: 600;
+}
+.box-1 p{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+font-size: 95px;
+font-weight: 800;
+}
+.box-1 h4{
+    color: #534C64;
+font-size: 20px;
+font-weight: 500;
+padding-top: 16px;
+}
+.btn-1{
+    border: none;
+    border-radius: 48px;
+background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+display: inline-flex;
+padding: 21px 40px;
+align-items: flex-start;
+gap: 10px;
+color: #FFF;
+font-size: 20px;
+font-weight: 600;
+}
+.btn-2{
+    border: none;
+    border-radius: 48px;
+background-color: #4EC5F7;;
+display: inline-flex;
+padding: 21px 40px;
+align-items: flex-start;
+gap: 10px;
+color: #FFF;
+font-size: 20px;
+font-weight: 600;
+margin-top: 40px;
+}
+.box-2{
+    background-image: url('./images/Group\ 18.png');
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 40%;
+}
+
+
+
+
+/* play like the goat section ends here */
+
+
+footer{
+    background-color: #0B0223;
+flex-shrink: 0;
+align-items: center;
+text-align: center;
+}
+/* .footer-container{
+    max-width: 1400px;
+    margin: 0 auto;
+} */
+.footer-container svg{
+    width: 40px;
+    height: 40px;
+    padding-top: 60px;
+}
+.logo-footer{
+    display: flex;
+align-items: center;
+justify-content: center;
+padding-top: 60px;
+}
+.amer{
+    color: #FFF;
+}
+.footer-contents{
+    display: flex;
+    color: #FFF;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    padding-top: 60px;
+    flex-wrap: wrap;
+}
+.footer-menus{
+    color: white;
+display: flex;
+justify-content: center;
+padding-top: 60px;
+gap: 60px;
+}
+.footer-last-line{
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }

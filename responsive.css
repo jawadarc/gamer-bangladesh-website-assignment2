@@ -1,3 +1,5 @@
+/* for mobile screen  */
+
 @media screen  and (min-width:350px) and (max-width:576px) {
    
         .logo-container {
@@ -7,5 +9,40 @@
             flex-direction: column;
             padding-top: 60px;
         }
+
+/* 2nd sectoin  */
+
+.boxes{
+    flex-direction: column;
+    margin-top: 80px;
+}
+.box-2{
+    /* height: 1000px; */
+    width: 200px;
+}
+.footer-container{
+    /* align-content: center; */
+    padding: 30px;
+}
+.footer-contents, .footer-menus {
+    flex-wrap: wrap;
+    gap: 60px;
+}
+svg{
+    flex-wrap: wrap;
+    gap: 60px;
+}
     
+}
+
+/* for tab screen  */
+
+@media screen  and (min-width:577px) and (max-width:800px) {
+    .logo-container {
+        flex-direction: column;
+    }
+    .about-us{
+        flex-direction: column;
+        padding-top: 60px;
+    }
 }
