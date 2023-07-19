@@ -326,10 +326,7 @@ footer {
     margin: 0 auto;
 } */
 .footer-container svg {
-    width: 40px;
-    height: 40px;
-    padding-top: 60px;
-    color: white;
+   margin-top: 60px;
 }
 
 .logo-footer {
