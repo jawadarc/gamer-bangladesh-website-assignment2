@@ -14,15 +14,18 @@
     /* 2nd sectoin  */
 
     .boxes {
+        /* justify-content: space-between; */
         flex-direction: column;
         margin-top: 80px;
     }
-    .box-2{
+
+    .box-2 {
         width: 90%;
     }
+
     .box-2 img {
         /* height: auto; */
-        width:100%;
+        width: 100%;
         margin-top: 40px;
     }
 
@@ -37,6 +40,37 @@
         text-align: center;
     }
 
+
+
+    /* special gaming section */
+    .special-gaming-container {
+        flex-direction: column;
+    }
+
+    .game-desc h1,
+    .game-desc p {
+        text-align: center;
+    }
+
+    .game-picture {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .primary-picture{
+        height: auto;
+        width: 50px;
+
+    }
+
+    /* .box-2 {
+        width: 90%;
+    }
+
+    .box-2 img {
+        height: auto;
+        width: 100%;
+        margin-top: 40px;
+    } */
 
     /* footer section starts  */
 
@@ -56,6 +90,8 @@
         flex-wrap: wrap;
         gap: 60px;
     }
+
+
 
 }
 
