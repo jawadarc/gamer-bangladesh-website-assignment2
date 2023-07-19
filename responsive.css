@@ -1,6 +1,6 @@
 /* for mobile screen  */
 
-@media screen and (min-width:350px) and (max-width:576px) {
+@media screen and (max-width:576px) {
 
     .logo-container {
         flex-direction: column;
@@ -18,7 +18,8 @@
         flex-direction: column;
         margin-top: 80px;
     }
-    .box-1{
+
+    .box-1 {
         width: 100%;
         object-fit: cover;
         /* padding: 50px 10px; */
@@ -36,9 +37,10 @@
 
 
     /* cards games section  */
-    .cards-container{
+    .cards-container {
         margin: 50px auto;
     }
+
     .cards-container {
         flex-direction: column;
         align-items: center;
@@ -58,45 +60,49 @@
     .game-desc h1,
     .game-desc p {
         text-align: center;
+        margin: 30px 0;
     }
 
     .game-picture {
         width: 80%;
         margin-left: 50px;
     }
-    .primary-picture{
+
+    .primary-picture {
         height: auto;
         width: 100%;
 
     }
-    .primary-picture img{
+
+    .primary-picture img {
         /* height: auto; */
         width: 100%;
 
     }
-    .secondary-img img{
+
+    .secondary-img img {
         width: 150px;
         height: 180px;
         margin-top: 100px;
         margin-left: 100px;
     }
-   
 
 
-/* various games starts section */
-.various-game-container{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-self: center;
-    /* display: flex;
+
+    /* various games starts section */
+    .various-game-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-self: center;
+        /* display: flex;
     flex-direction: column; */
 
-}
+    }
 
 
 
 
-/* various games ends section */
+    /* various games ends section */
 
 
 
@@ -126,7 +132,7 @@
 
 
 
-
+/* ......................................................................................... */
 
 
 
@@ -137,14 +143,64 @@
 
 /* for tab screen  */
 
-@media screen and (min-width:577px) and (max-width:800px) {
+@media screen and (min-width:768px) and (max-width:991px) {
     .logo-container {
         flex-direction: column;
+        align-items: center;
     }
 
     .about-us {
         flex-direction: column;
-        padding-top: 60px;
+        padding-top: 30px;
     }
 
+    .boxes {
+        /* justify-content: space-between; */
+        flex-direction: column;
+        margin-top: 200px;
+    }
+    .box-1 {
+        width: 100%;
+    }
+    .box-1 h1, .box-1 p{
+text-align: center;
+    }
+
+    .cards-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .games-title {
+        padding-top: 220px;
+    }
+
+    .card-image-container {
+        display: flex;
+        /* flex-direction: row; */
+    }
+    .game-picture{
+        width: 100%;
+    
+    }
+    .primary-picture{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .primary-picture img{
+        width: 100%;
+    }
+    .secondary-img{
+        margin-left: 10px;
+    }
+    .special-gaming-container {
+        flex-direction: column;
+    }
+    .game-desc p, .game-desc h1 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .various-game-container {
+        flex-wrap: wrap;
+    }
 }
