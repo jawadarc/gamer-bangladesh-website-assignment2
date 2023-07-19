@@ -17,10 +17,13 @@
         flex-direction: column;
         margin-top: 80px;
     }
-
+    .box-2{
+        width: 90%;
+    }
     .box-2 img {
-        /* height: 1000px; */
-        width: 100%;
+        /* height: auto; */
+        width:100%;
+        margin-top: 40px;
     }
 
 
