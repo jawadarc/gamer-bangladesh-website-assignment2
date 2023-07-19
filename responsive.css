@@ -62,15 +62,19 @@
 
     }
 
-    /* .box-2 {
-        width: 90%;
-    }
 
-    .box-2 img {
-        height: auto;
-        width: 100%;
-        margin-top: 40px;
-    } */
+/* various games starts section */
+.various-game-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+
+
+/* various games ends section */
+
+
 
     /* footer section starts  */
 

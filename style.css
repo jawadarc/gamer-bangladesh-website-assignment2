@@ -77,9 +77,9 @@
 /* play like the goat section starts here */
 
 .boxes {
- display: flex;
- align-items: center;
- justify-content: space-around;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 /* .box-1{
@@ -206,43 +206,69 @@
 .special-image {
     border-radius: 16px;
 }
-.cards-img:hover{
 
-    
+.cards-img:hover {
+    cursor: pointer;
+    background-color: #0B0223;
 }
 
 
 
+
 /* special gaming starts  */
-.special-gaming-container{
+.special-gaming-container {
     margin: 60px auto;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-.play-instant{
+
+.play-instant {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-}
-.game-desc h1{
-font-size: 48px;
-font-weight: 700;
-text-align: right;
-}
-.game-desc p{
-    color: #534C64;
-text-align: right;
-font-size: 18px;
-font-weight: 400;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-.secondary-img{
+.game-desc h1 {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: right;
+}
+
+.game-desc p {
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.secondary-img {
     border-radius: 8px;
     margin-top: -250px;
     margin-left: -150px;
 }
+
+
+
+/* various-game section starts */
+
+
+.various-game-container {
+    margin: 60px auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.various-games {
+    display: flex;
+    align-items: center;
+
+}
+
+/* various-game section ends */
 
 
 
