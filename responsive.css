@@ -1,51 +1,59 @@
 /* for mobile screen  */
 
-@media screen  and (min-width:350px) and (max-width:576px) {
-   
-        .logo-container {
-            flex-direction: column;
-        }
-        .about-us{
-            flex-direction: column;
-            padding-top: 30px;
-        }
+@media screen and (min-width:350px) and (max-width:576px) {
 
-/* 2nd sectoin  */
+    .logo-container {
+        flex-direction: column;
+    }
 
-.boxes{
-    flex-direction: column;
-    margin-top: 80px;
-}
-.box-2{
-    /* height: 1000px; */
-    width: 200px;
-}
-/* cards games section  */
-.cards-container{
-flex-direction: column;
-align-items: center;
-}
-.cards p{
-    text-align: center;
-}
+    .about-us {
+        flex-direction: column;
+        padding-top: 30px;
+    }
+
+    /* 2nd sectoin  */
+
+    .boxes {
+        flex-direction: column;
+        margin-top: 80px;
+    }
+
+    .box-2 img {
+        /* height: 1000px; */
+        width: 100%;
+    }
 
 
-/* footer section starts  */
+    /* cards games section  */
+    .cards-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards p {
+        text-align: center;
+    }
 
 
-.footer-container{
-    /* align-content: center; */
-    padding: 30px;
-}
-.footer-contents, .footer-menus {
-    flex-wrap: wrap;
-    gap: 60px;
-}
-svg{
-    flex-wrap: wrap;
-    gap: 60px;
-}
-    
+    /* footer section starts  */
+
+
+    .footer-container {
+        /* align-content: center; */
+        padding: 30px;
+    }
+
+    .footer-contents,
+    .footer-menus {
+        flex-wrap: wrap;
+        gap: 60px;
+    }
+
+    svg {
+        flex-wrap: wrap;
+        gap: 60px;
+    }
+
 }
 
 
@@ -62,11 +70,12 @@ svg{
 
 /* for tab screen  */
 
-@media screen  and (min-width:577px) and (max-width:800px) {
+@media screen and (min-width:577px) and (max-width:800px) {
     .logo-container {
         flex-direction: column;
     }
-    .about-us{
+
+    .about-us {
         flex-direction: column;
         padding-top: 60px;
     }

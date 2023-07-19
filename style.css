@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Work+Sans&display=swap');
+
 * {
     margin: 0;
     padding: o;
@@ -33,115 +34,124 @@
 }
 
 .g {
-    background:linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.about-us{
+
+.about-us {
     display: flex;
     align-items: center;
     gap: 30px;
 }
-.about-us a{
+
+.about-us a {
     color: #3C354F;
-text-align: center;
-font-size: 18px;
-font-weight: 500;
-text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
 }
-.logo-button{
+
+.logo-button {
     border-radius: 8px;
-background: rgba(11, 2, 35, 0.10);
-border: none;
-padding: 20px;
-display: flex;
-align-items: center;
-gap: 20px;
+    background: rgba(11, 2, 35, 0.10);
+    border: none;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
-.about-us p:hover{
+
+.about-us p:hover {
     cursor: pointer;
 }
+
 .icon:hover {
-cursor: pointer;
+    cursor: pointer;
 }
 
 /* logo section ends here */
 
 /* play like the goat section starts here */
 
-.boxes{
+.boxes {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
+
 /* .box-1{
     background-image: url('./images/Group\ 14.png');
     background-size: auto;
     background-repeat: no-repeat;
     height: 700px;
-    width: 900px;
+    width: 50%;
     align-items: center;
     justify-content: center;
 } */
-
-.box-1 h1{
+.box-1 h1 {
     color: #0B0223;
-font-size: 48px;
-font-weight: 600;
+    font-size: 48px;
+    font-weight: 600;
 }
-.box-1 p{
+
+.box-1 p {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 
-font-size: 95px;
-font-weight: 800;
+    font-size: 95px;
+    font-weight: 800;
 
 }
-.box-1 h4{
+
+.box-1 h4 {
     color: #534C64;
-font-size: 20px;
-font-weight: 500;
-padding-top: 16px;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 16px;
 }
 
-.btn-1{
+.btn-1 {
     border: none;
     border-radius: 48px;
-background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
-display: inline-flex;
-padding: 21px 40px;
-align-items: flex-start;
-gap: 10px;
-color: #FFF;
-font-size: 20px;
-font-weight: 600;
-margin-right: 25px;
-}
-.btn-2{
-    border: none;
-    border-radius: 48px;
-background-color: #4EC5F7;;
-display: inline-flex;
-padding: 21px 40px;
-align-items: flex-start;
-gap: 10px;
-color: #FFF;
-font-size: 20px;
-font-weight: 600;
-margin-top: 40px;
-}
-.box-2{
-    background-image: url('./images/Group\ 18.png');
-    background-repeat: no-repeat;
-    height: 700px;
-    width: 40%;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 25px;
 }
 
-.btn-1, .btn-2{
-cursor: pointer;
+.btn-2 {
+    border: none;
+    border-radius: 48px;
+    background-color: #4EC5F7;
+    ;
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+.box-2 {
+    /* height: 700px; */
+    width: 50%;
+}
+
+.btn-1,
+.btn-2 {
+    cursor: pointer;
 }
 
 
@@ -149,80 +159,90 @@ cursor: pointer;
 
 
 /* cards section starts  */
-.cards-banner{
+.cards-banner {
     background-color: #fff9f9;
 }
 
-.games-title{
+.games-title {
     color: #0B0223;
     font-size: 48px;
     font-weight: 700;
     text-align: center;
     padding-top: 60px;
 }
-.funny-videos{
+
+.funny-videos {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-font-size: 48px;
-font-weight: 700;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
 }
-.games-desc{
+
+.games-desc {
     color: #534C64;
-text-align: center;
-font-size: 18px;
-font-weight: 400;
-padding-top: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 30px;
 }
-.cards-container{
-display: flex;
-justify-content: space-around;
+
+.cards-container {
+    display: flex;
+    justify-content: space-around;
 }
-.cards{
+
+.cards {
     height: 500px;
     width: 320px;
     border-radius: 16px;
     padding-top: 40px;
 }
-.cards p{
+
+.cards p {
     color: #534C64;
-font-size: 20px;
-font-style: normal;
-font-weight: 500;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
 }
-.special-image{
+
+.special-image {
     border-radius: 16px;
 }
 
 
 
 /* footer section starts  */
-footer{
+footer {
     background-color: #0B0223;
-flex-shrink: 0;
-align-items: center;
-text-align: center;
+    flex-shrink: 0;
+    align-items: center;
+    text-align: center;
 }
+
 /* .footer-container{
     max-width: 1400px;
     margin: 0 auto;
 } */
-.footer-container svg{
+.footer-container svg {
     width: 40px;
     height: 40px;
     padding-top: 60px;
 }
-.logo-footer{
+
+.logo-footer {
     display: flex;
-align-items: center;
-justify-content: center;
-padding-top: 60px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
 }
-.amer{
+
+.amer {
     color: #FFF;
 }
-.footer-contents{
+
+.footer-contents {
     display: flex;
     color: #FFF;
     align-items: center;
@@ -231,25 +251,30 @@ padding-top: 60px;
     padding-top: 60px;
     flex-wrap: wrap;
 }
-.footer-contents a{
+
+.footer-contents a {
     text-decoration: none;
     color: #FFF;
 }
-.social-icons:hover{
-cursor: pointer;
+
+.social-icons:hover {
+    cursor: pointer;
 }
+
 .footer-menus {
     color: white;
-display: flex;
-justify-content: center;
-padding-top: 60px;
-gap: 60px;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    gap: 60px;
 }
-.footer-menus a{
+
+.footer-menus a {
     text-decoration: none;
     color: #FFF;
 }
-.footer-last-line{
+
+.footer-last-line {
     color: white;
     padding-top: 60px;
     padding-bottom: 60px;
