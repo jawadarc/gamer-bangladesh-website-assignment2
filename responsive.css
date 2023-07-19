@@ -159,11 +159,14 @@
         flex-direction: column;
         margin-top: 200px;
     }
+
     .box-1 {
         width: 100%;
     }
-    .box-1 h1, .box-1 p{
-text-align: center;
+
+    .box-1 h1,
+    .box-1 p {
+        text-align: center;
     }
 
     .cards-container {
@@ -179,28 +182,41 @@ text-align: center;
         display: flex;
         /* flex-direction: row; */
     }
-    .game-picture{
+
+    .game-picture {
         width: 100%;
-    
+
     }
-    .primary-picture{
+
+    .primary-picture {
         width: 80%;
         margin: 0 auto;
     }
-    .primary-picture img{
+
+    .primary-picture img {
         width: 100%;
     }
-    .secondary-img{
+
+    .secondary-img {
         margin-left: 10px;
     }
+
     .special-gaming-container {
         flex-direction: column;
     }
-    .game-desc p, .game-desc h1 {
+
+    .game-desc p,
+    .game-desc h1 {
         text-align: center;
         margin-bottom: 30px;
     }
+
     .various-game-container {
         flex-wrap: wrap;
+
+        margin: 60px;
+        display: grid;
+        grid-template-columns: repeat(3, 200px);
+        justify-content: center;
     }
 }

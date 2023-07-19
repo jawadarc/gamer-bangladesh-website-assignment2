@@ -285,8 +285,9 @@
 
 
 .various-game-container {
-    margin: 60px auto;
-    display: flex;
+    margin: 60px;
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
     justify-content: center;
     gap: 20px;
 
@@ -307,6 +308,7 @@
 border: 1.5px solid #F948B2;
 border-radius: 50px;
 color: #F948B2;
+cursor: pointer;
 }
 
 /* various-game section ends */
