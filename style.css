@@ -4,6 +4,7 @@
     margin: 0;
     padding: o;
     font-family: 'Work Sans', sans-serif;
+    box-sizing: border-box;
     /* max-width: 1440px;
     margin: 0 auto; */
 }
@@ -77,24 +78,16 @@
 /* play like the goat section starts here */
 
 .boxes {
+    height: 700px;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-
-/* .box-1{
-    background-image: url('./images/Group\ 14.png');
-    background-size: auto;
-    background-repeat: no-repeat;
-    height: 700px;
-    width: 50%;
-    align-items: center;
-    justify-content: center;
-} */
 .box-1 h1 {
     color: #0B0223;
     font-size: 48px;
     font-weight: 600;
+    /* width: 50%; */
 }
 
 .box-1 p {
@@ -107,12 +100,26 @@
     font-weight: 800;
 
 }
+.box-1{
+    width: 50%;
+    height: 100%;
+    background: url("./images/Group\ 14.png");
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+}
+
 
 .box-1 h4 {
     color: #534C64;
     font-size: 20px;
     font-weight: 500;
     padding-top: 16px;
+}
+.icons-instructions{
+    align-content: center;
 }
 
 .btn-1 {
@@ -157,6 +164,7 @@
 /* cards section starts  */
 .cards-banner {
     background-color: #fff9f9;
+    
 }
 
 .games-title {
@@ -195,6 +203,31 @@
     border-radius: 16px;
     padding-top: 40px;
 }
+.card-image-container{
+    width: 100%;
+    position: relative;
+}
+.card-image-container:hover .card-hover{
+    opacity: 1;
+}
+.card-hover{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    ;
+    border-radius: 10px;
+    background-color: #0e0e0ed0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+.card-image-container img{
+    width: 100%;
+}
 
 .cards p {
     color: #534C64;
@@ -207,10 +240,7 @@
     border-radius: 16px;
 }
 
-.cards-img:hover {
-    cursor: pointer;
-    background-color: #0B0223;
-}
+
 
 
 
@@ -258,6 +288,8 @@
     margin: 60px auto;
     display: flex;
     justify-content: center;
+    gap: 20px;
+
 }
 
 
@@ -265,7 +297,16 @@
 .various-games {
     display: flex;
     align-items: center;
+    
 
+}
+.various-games p{
+    margin-left: 10px;
+}
+.various-games:hover{
+border: 1.5px solid #F948B2;
+border-radius: 50px;
+color: #F948B2;
 }
 
 /* various-game section ends */
@@ -288,6 +329,7 @@ footer {
     width: 40px;
     height: 40px;
     padding-top: 60px;
+    color: white;
 }
 
 .logo-footer {
@@ -295,6 +337,7 @@ footer {
     align-items: center;
     justify-content: center;
     padding-top: 60px;
+    margin: auto 100px;
 }
 
 .amer {
@@ -315,7 +358,9 @@ footer {
     text-decoration: none;
     color: #FFF;
 }
-
+.fa-brands{
+    color: white;
+}
 .social-icons:hover {
     cursor: pointer;
 }

@@ -18,6 +18,11 @@
         flex-direction: column;
         margin-top: 80px;
     }
+    .box-1{
+        width: 100%;
+        object-fit: cover;
+        padding: 50px 10px;
+    }
 
     .box-2 {
         width: 90%;
@@ -31,6 +36,9 @@
 
 
     /* cards games section  */
+    .cards-container{
+        margin: 50px auto;
+    }
     .cards-container {
         flex-direction: column;
         align-items: center;
@@ -54,19 +62,35 @@
 
     .game-picture {
         width: 80%;
-        margin: 0 auto;
+        margin-left: 50px;
     }
     .primary-picture{
         height: auto;
-        width: 50px;
+        width: 100%;
 
     }
+    .primary-picture img{
+        /* height: auto; */
+        width: 100%;
+
+    }
+    .secondary-img img{
+        width: 150px;
+        height: 180px;
+        margin-top: 100px;
+        margin-left: 100px;
+    }
+   
 
 
 /* various games starts section */
 .various-game-container{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    justify-self: center;
+    /* display: flex;
+    flex-direction: column; */
+
 }
 
 
