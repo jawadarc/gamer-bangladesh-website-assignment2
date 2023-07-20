@@ -81,8 +81,9 @@
     height: 700px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
+
 .box-1 h1 {
     color: #0B0223;
     font-size: 48px;
@@ -100,7 +101,8 @@
     font-weight: 800;
 
 }
-.box-1{
+
+.box-1 {
     width: 50%;
     height: 100%;
     background: url("./images/Group\ 14.png");
@@ -118,9 +120,8 @@
     font-weight: 500;
     padding-top: 16px;
 }
-.icons-instructions{
-    align-content: center;
-}
+
+
 
 .btn-1 {
     border: none;
@@ -152,8 +153,7 @@
 }
 
 
-.btn-1,
-.btn-2 {
+.btn-1, .btn-2 {
     cursor: pointer;
 }
 
@@ -161,10 +161,77 @@
 /* play like the goat section ends here */
 
 
+/* we are gamer section starts  */
+
+.we-are-gamer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px 175px;
+}
+
+.we-are-txt {
+    text-align: right;
+}
+
+.we-are-txt h1 {
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 24px;
+}
+
+.we-are-txt p {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 24px;
+}
+
+.gamer-btn{
+    
+    border: none;
+    border-radius: 48px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+.we-are-txt h3 {
+    color: #534C64;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 24px;
+}
+
+.unleash {
+    color: #534C64;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.we-are-img {
+    width: 50%;
+    align-items: flex-start;
+
+}
+.we-are-img img{
+    width: 80%;
+}
+
+/* we are gamer section starts  */
+
 /* cards section starts  */
 .cards-banner {
     background-color: #fff9f9;
-    
+
 }
 
 .games-title {
@@ -203,14 +270,17 @@
     border-radius: 16px;
     padding-top: 40px;
 }
-.card-image-container{
+
+.card-image-container {
     width: 100%;
     position: relative;
 }
-.card-image-container:hover .card-hover{
+
+.card-image-container:hover .card-hover {
     opacity: 1;
 }
-.card-hover{
+
+.card-hover {
     width: 100%;
     position: absolute;
     bottom: 0;
@@ -218,14 +288,15 @@
     ;
     border-radius: 10px;
     background-color: #0e0e0ed0;
-    
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     opacity: 0;
 }
-.card-image-container img{
+
+.card-image-container img {
     width: 100%;
 }
 
@@ -263,12 +334,13 @@
 .game-desc h1 {
     font-size: 48px;
     font-weight: 700;
-    text-align: right;
+    text-align: left;
+    margin-bottom: 30px;
 }
 
 .game-desc p {
     color: #534C64;
-    text-align: right;
+    text-align: left;
     font-size: 18px;
     font-weight: 400;
 }
@@ -298,17 +370,19 @@
 .various-games {
     display: flex;
     align-items: center;
-    
+
 
 }
-.various-games p{
+
+.various-games p {
     margin-left: 10px;
 }
-.various-games:hover{
-border: 1.5px solid #F948B2;
-border-radius: 50px;
-color: #F948B2;
-cursor: pointer;
+
+.various-games:hover {
+    border: 1.5px solid #F948B2;
+    border-radius: 50px;
+    color: #F948B2;
+    cursor: pointer;
 }
 
 /* various-game section ends */
@@ -328,7 +402,7 @@ footer {
     margin: 0 auto;
 } */
 .footer-container svg {
-   margin-top: 60px;
+    margin-top: 60px;
 }
 
 .logo-footer {
@@ -357,9 +431,11 @@ footer {
     text-decoration: none;
     color: #FFF;
 }
-.fa-brands{
+
+.fa-brands {
     color: white;
 }
+
 .social-icons:hover {
     cursor: pointer;
 }
@@ -381,4 +457,9 @@ footer {
     color: white;
     padding-top: 60px;
     padding-bottom: 60px;
+}
+
+.footer-contents :hover,
+.footer-menus :hover {
+    color: #F948B2;
 }
