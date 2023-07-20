@@ -218,12 +218,12 @@
 }
 
 .we-are-img {
-    width: 50%;
+    width: 800px;
     /* align-items: flex-start; */
 
 }
 .we-are-img img{
-    width: 80%;
+    width: 100%;
 }
 
 /* we are gamer section starts  */

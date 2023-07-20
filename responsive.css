@@ -49,7 +49,7 @@
     .we-are-img {
         width: 100%;
         justify-content: center;
-        margin-left: 85px;
+        /* padding-left: 85px; */
     }
 
     /* cards games section  */
@@ -210,7 +210,6 @@
 
     .we-are-img {
         width: 100%;
-        margin-left: 150px ;
 
     }
 
@@ -230,6 +229,7 @@
 
     .game-picture {
         width: 100%;
+        padding:  50px;
         /* margin-left: 100px; */
     }
 
