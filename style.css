@@ -103,8 +103,8 @@
 }
 
 .box-1 {
-    width: 50%;
-    height: 100%;
+    width: 900px;
+    height: 700px;
     background: url("./images/Group\ 14.png");
     background-repeat: no-repeat;
     display: flex;
@@ -167,7 +167,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 3px 175px;
 }
 
 .we-are-txt {
@@ -219,7 +218,7 @@
 
 .we-are-img {
     width: 50%;
-    align-items: flex-start;
+    /* align-items: flex-start; */
 
 }
 .we-are-img img{

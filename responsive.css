@@ -16,13 +16,11 @@
     .boxes {
         /* justify-content: space-between; */
         flex-direction: column;
-        margin-top: 80px;
+        margin-top: 80px auto;
     }
 
     .box-1 {
         width: 100%;
-        object-fit: cover;
-        /* padding: 50px 10px; */
     }
 
     .box-2 {
@@ -33,21 +31,27 @@
         /* height: auto; */
         width: 100%;
         margin-top: 40px;
+        
     }
 
     /* we are gamer section */
-.we-are-gamer-container{
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
-    margin-top: 150px;
-} 
-.we-are-txt{
-    text-align: center;
-}
-.we-are-img{
-    width: 80%;
-}
+    .we-are-gamer-container {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+    }
+
+    .we-are-txt {
+        text-align: center;
+    }
+
+    .we-are-img {
+        width: 100%;
+        justify-content: center;
+        margin-left: 85px;
+    }
+
     /* cards games section  */
     .cards-container {
         margin: 0px auto;
@@ -179,7 +183,8 @@
     .boxes {
         /* justify-content: space-between; */
         flex-direction: column;
-        margin-top: 200px;
+        /* margin-top: 20px; */
+        background-image: none;
     }
 
     .box-1 {
@@ -191,13 +196,31 @@
         text-align: center;
     }
 
+    /* we are gamer section */
+    .we-are-gamer-container {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-top: 500px;
+    }
+
+    .we-are-txt {
+        text-align: center;
+    }
+
+    .we-are-img {
+        width: 100%;
+        margin-left: 150px ;
+
+    }
+
     .cards-container {
         flex-direction: column;
         align-items: center;
     }
 
     .games-title {
-        padding-top: 220px;
+        padding-top: 100px;
     }
 
     .card-image-container {
@@ -207,7 +230,7 @@
 
     .game-picture {
         width: 100%;
-
+        /* margin-left: 100px; */
     }
 
     .primary-picture {
